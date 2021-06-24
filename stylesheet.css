@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 24px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.main {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  animation: gambar 10s ease-in-out infinite;
+}
+
+@keyframes gambar {
+  0%,100%{
+    background-image: url(gambar/lombok.PNG);
+  }
+  25%{
+    background-image: url(gambar/yogyakarta.PNG);
+  }
+  50%{
+    background-image: url(gambar/raja-ampat.PNG);
+  }
+  70%{
+    background-image: url(gambar/bali.PNG);
+  }
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 2px 2px blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 20px;
+  margin-bottom: 3px;
+  color: white;
+  text-shadow: 2px 2px blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+  font-size: 20px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.twitter {
+  background-color: #55acee;
+  font-size: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+}
+  
+.wisata-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: blue;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.wisata {
+  float: left;
+  width: 25%;
+}
+
+.wisata-icon {
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 45px;}
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: blue;
+  cursor: pointer;
+  box-shadow: 0 7px grey;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+footer img {
+  width: 300px;
+  height: 100px;
+  margin-left: 25px;
+  }
+
+footer p {
+  color: white;
+  font-size: 20px;
+  margin: 30px;
+}
+  
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+}
+
+.footer-list {
+  color: white;
+  font-size: 25px;
+  float: right;
+  margin: 45px;
+}
